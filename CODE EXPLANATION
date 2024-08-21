@@ -1,0 +1,38 @@
+1. Initialize the Random Number Generator:
+   - The program seeds the random number generator using the current time to ensure that each run produces different random sequences.
+
+2. Declare and Initialize Player Positions:
+   - Two integer variables `a` and `b` are initialized to zero to represent the starting positions of Player A and Player B.
+
+3. Start the Game Loop:
+   - A loop begins and will continue indefinitely until a break condition is met when one of the players wins.
+
+4. Simulate Dice Roll:
+   - In each iteration of the loop, a random number between 1 and 6 is generated to simulate rolling a die.
+
+5. Determine Whose Turn It Is:
+   - The loop uses the iteration number `i` to alternate turns between Player A and Player B. If `i` is odd, it's Player A's turn; if even, it's Player B's turn.
+
+6. Update Player A's Position:
+   - On Player A's turn, the program adds the value of the dice roll to Player A's current position.
+
+7. Check for Ladders and Snakes for Player A:
+   - The program checks if Player A lands on a special square (like a ladder or snake). If so, Player A’s position is adjusted accordingly—moving up for a ladder or down for a snake.
+
+8. Check if Player A Wins:
+   - After updating the position, the program checks if Player A's position is 100 or more. If so, Player A wins, and the program prints a message and ends the game.
+
+9. Update Player B's Position:
+   - On Player B's turn, the program adds the value of the dice roll to Player B's current position, similar to Player A.
+
+10. Check for Ladders and Snakes for Player B:
+    - The program checks if Player B lands on a special square and adjusts their position accordingly.
+
+11. Check if Player B Wins:
+    - After updating the position, the program checks if Player B's position is 100 or more. If so, Player B wins, and the program prints a message and ends the game.
+
+12. **Loop Continues**:
+    - If neither player has won, the loop continues to the next iteration, where the next player takes their turn.
+
+13. **End of Game**:
+    - The game ends when one of the players reaches or exceeds a score of 100, and the winner is declared. The loop exits, and the program terminates.
