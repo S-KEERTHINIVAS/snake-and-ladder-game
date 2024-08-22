@@ -21,22 +21,31 @@ int main()
                     if(a==5)
                     {
                         a+=53;
+                        break;
                     }else if(a==14){
                         a+=35;
+                        break;
                     }else if(a==38){
                         a-=18;
+                        break;
                     }else if(a==51){
                         a-=41;
+                        break;
                     }else if(a==53){
                         a+=19;
+                        break;
                     }else if(a==64){
                         a+=19;
+                        break;
                     }else if(a==76){
                         a-=22;
+                        break;
                     }else if(a==91){
                         a-=18;
+                        break;
                     }else if(a==97){
                         a-=36;
+                        break;
                     }else{
                         break;
                     }
@@ -46,22 +55,31 @@ int main()
                     if(b==5)
                     {
                         b+=53;
+                        break;
                     }else if(b==14){
                         b+=35;
+                        break;
                     }else if(b==38){
                         b-=18;
+                        break;
                     }else if(b==51){
                         b-=41;
+                        break;
                     }else if(b==53){
                         b+=19;
+                        break;
                     }else if(b==64){
                         b+=19;
+                        break;
                     }else if(b==76){
                         b-=22;
+                        break;
                     }else if(b==91){
                         b-=18;
+                        break;
                     }else if(b==97){
                         b-=36;
+                        break;
                     }else{
                         break;
                     }
